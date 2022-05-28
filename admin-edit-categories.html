@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title></title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/admin.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="nav-container">
+        <nav>
+          <img src="images/logo/logo.png" alt="" />
+          <ul>
+            <li>
+              <a href="admin-edit-books.html" class="nav-link"
+                >Edit Your Books</a
+              >
+            </li>
+            <li>
+              <a href="#" class="nav-link">Edit Your Categories</a>
+            </li>
+          </ul>
+          <div class="account">
+            <p>Welcome,</p>
+            <span class="profile-name">Mohammed</span>
+          </div>
+        </nav>
+      </div>
+
+      <h1 class="page-header">
+        EDIT &check; &nbsp;<span> YOUR CATEGORIES</span>
+      </h1>
+    </header>
+
+    <div class="table-container">
+      <div class="main-btn-container">
+        <button class="add-new-category-btn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon-plus"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+            />
+          </svg>
+          Add new category
+        </button>
+      </div>
+
+      <div class="table-container-inner">
+        <div class="category-header-row">
+          <div class="t-head-cell">#id</div>
+          <div class="t-head-cell">Category Name</div>
+          <div class="t-head-cell">Operation</div>
+        </div>
+
+        <div class="add-category-row">
+          <div class="t-data" id="id">1</div>
+          <div class="t-data" id="category-name">Science Fiction</div>
+          <div class="t-data" id="operation">
+            <button class="btn edit-btn">Edit</button>
+            <button class="btn delete-btn">Delete</button>
+          </div>
+        </div>
+
+        <div class="add-category-row">
+          <div class="t-data" id="id">2</div>
+          <div class="t-data" id="category-name">Crime</div>
+          <div class="t-data" id="operation">
+            <button class="btn edit-btn">Edit</button>
+            <button class="btn delete-btn">Delete</button>
+          </div>
+        </div>
+
+        <div class="add-category-row">
+          <div class="t-data" id="id">3</div>
+          <div class="t-data" id="category-name">Novels</div>
+          <div class="t-data" id="operation">
+            <button class="btn edit-btn">Edit</button>
+            <button class="btn delete-btn">Delete</button>
+          </div>
+        </div>
+
+        <div class="add-category-row">
+          <div class="t-data" id="id">4</div>
+          <div class="t-data" id="category-name">Fantasy</div>
+          <div class="t-data" id="operation">
+            <button class="btn edit-btn">Edit</button>
+            <button class="btn delete-btn">Delete</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
